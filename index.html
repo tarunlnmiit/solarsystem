@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <title>Hello World</title>
+<!--
+    <style>
+      span {
+        border: 1px solid black;
+      }
+    </style>--!>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body>
+    <!-- This code is in the public domain. Enjoy! -->
+    <img src ="images/solar.png" usemap="#planetimage"/>
+    
+    <map name="planetimage">
+      
+        <area shape="rect" coords="0,236,29,0" alt="Sun" href="planets/sun.html">       
+       <area shape="circle" coords ="51,129,3" alt="Mercury" href ="planets/mercury.html">
+       <area shape="circle" coords ="64,129,3" alt="Venus" href ="planets/venus.html">
+       <area shape="circle" coords ="78,129,5" alt="Earth" href ="planets/earth.html">
+       <area shape="circle" coords ="94,131,3" alt="Mars" href ="planets/mars.html">
+       <area shape="circle" coords ="128,129,10" alt="Jupiter" href ="planets/jupiter.html">
+       <area shape="circle" coords ="188,129,15" alt="Saturn" href ="planets/saturn.html">
+       <area shape="circle" coords ="231,129,5" alt="Uranus" href ="planets/uranus.html">
+       <area shape="circle" coords ="247,129,5" alt="Neptune" href ="planets/neptune.html">
+    
+    </map>
+    <p style="text-align:center "> Click on the any planet to know more about your Solar system.</p>
+    <br/>
+    <br/>
+    <hr>
+    <h1 style="text-align:center "> Solar System </h1>
+  <hr>  
+  </body>
+
+</html>
